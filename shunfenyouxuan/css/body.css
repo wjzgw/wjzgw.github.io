@@ -1,0 +1,402 @@
+@charset "utf-8";
+#main{
+	margin-top:22px;
+	
+	
+}
+
+#main .main-info{
+	width:1200px;
+	margin:0 auto;
+}
+#main .main-info h3{
+	font-size:16px;
+	font-weight: 100;
+	height:38px;
+	line-height:38px;
+}
+#main .main-info h3 span{
+	font-size:9px;
+	font-weight: 700;
+}
+#main .main-info .info-l{
+	width:950px;
+	-height:490px;
+	
+}
+
+#main .main-info .info-l ul li{
+	float:left;
+	width:235px;
+	height:258px;
+	border:1px solid #ccc;
+	
+}
+#main .main-info .info-l ul li a{
+	display: block;
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow: hidden;
+}
+#main .main-info .info-l ul li a .price{
+	position: absolute;
+	width:100%;
+	top:70px;
+	left:20px;
+	color:#f00;
+}
+#main .main-info .info-l ul li a .cart-c{
+	position: absolute;
+	width:120px;
+	height:24px;
+	line-height: 24px;
+	background:#76ac25;
+	color:#fff;
+	text-align: center;
+	
+	
+	left:50%;
+	margin-left:-60px;
+	bottom:-24px;
+	cursor: pointer;
+	border-radius:3px;
+}
+#main .main-info .info-l ul li a .cart-c .iconfont{
+	margin-right:10px;
+}
+
+
+#main .main-info .info-r{
+	width:222px;
+	height:518px;
+	border:1px solid #ccc;
+}
+#main .main-info .info-r>a{
+	display: block;
+	width:100%;
+	height:300px;
+}
+
+#main .main-info .info-r .info-title{
+	-width:100%;
+	height:30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #ccc;
+	padding:0 10px;
+}
+#main .main-info .info-r .info-title span{
+	font: 700 14px/30px "";
+	color:#333;
+}
+#main .main-info .info-r .info-title> a{
+	color:#ccc;
+}
+#main .main-info .info-r ul{
+	padding-left:10px;
+	
+}
+#main .main-info .info-r li{
+	height:28px;
+	line-height:28px;
+}
+#main .main-info .info-r li a{
+	color:#666;
+}
+#main .main-info .info-r li .first{
+	color:#fa6400;
+}
+#main .main-info .info-r li a:hover{
+	color:#76ac25;
+	
+}
+
+
+/*限时抢购*/
+#panic{
+	margin-top:30px;
+}
+#panic .panic-buy{
+	width:1200px;
+	height:360px;
+	margin:0 auto;
+	
+	
+}
+
+#panic .panic-buy .pb-t{
+	width:895px;
+	height:24px;
+	line-height: 24px;
+	padding:18px 20px 18px 30px;
+	
+	background:#fa6400;
+	
+}
+#panic .panic-buy .pb-t b{
+	width:32px;
+
+	height:34px;
+	margin-top:-7px;
+	
+	background:url(../img/paid_bg.png)-39px -266px no-repeat;
+}
+#panic .panic-buy .pb-t p{
+	width:111px;
+	height:28px;
+	font-size:23px;
+	color:#fff;
+	margin-left:10px;
+	
+}
+#panic .panic-buy .pb-t ul{
+	margin-top:-7px;
+}
+#panic .panic-buy .pb-t ul li{
+	float:left;
+	-margin:0 2px;
+	width:76px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	background:url(../img/time.png) repeat-x;
+	color:#fff;
+	font-size:30px;
+}
+#panic .panic-buy .pb-t ul .first{
+	background: none;
+	font-size:14px;
+}
+#panic .panic-buy .pb-t ul .hour{
+	background: none;
+	font-size:14px;
+}
+#panic .panic-buy .pb-t ul .minute{
+	background: none;
+	font-size:14px;
+}
+#panic .panic-buy .pb-t ul .second{
+	background: none;
+	font-size:14px;
+}
+#panic .panic-buy .pb-t ul .end{
+	background: none;
+	font-size:14px;
+}
+
+#panic .panic-buy .pb-t a{
+	color:#fff;
+	font-size:23px;
+}
+#panic .panic-buy .pb-b{
+	border:1px solid #ccc;
+}
+#panic .panic-buy .pb-b ul{
+	padding:20px 10px;
+}
+#panic .panic-buy .pb-b ul li{
+	width:174px;
+	float:left;
+	margin-right:10px;
+}
+#panic .panic-buy .pb-b ul li a{
+	display: block;
+	width:100%;
+	height:174px;
+	border:1px solid #ccc;
+	position:relative;
+}
+#panic .panic-buy .pb-b ul li a span{
+	display: block;
+	width:32px;
+	height:32px;
+	position: absolute;
+	top:0;
+	left:8px;
+	background:url(../img/paid_bg.png) 0 -136px;
+	
+}
+#panic .panic-buy .pb-b ul li p{
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	
+}
+#panic .panic-buy .pb-b ul li b{
+	display: block;
+	width:100%;
+	height:20px;
+	line-height: 20px;
+}
+#panic .panic-buy .pb-b ul li b i{
+	font-weight: 600;
+	color:#f00;
+}
+#panic .panic-buy .pb-b ul li b em{
+	font-weight: 600;
+	color:#666;
+	text-decoration: line-through;
+}
+#panic .panic-buy .pb-b ul li .snap-up{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	text-align:center;
+	margin-top:20px;
+	color:#fff;
+	background:#fa6400;
+	font-weight:600;
+	cursor: pointer;
+}
+#panic .panic-buy .pb-r{
+	width:222px;
+	height:330px;
+}
+#panic .panic-buy .pb-r a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+
+
+/*满减*/
+
+.full-reduce{
+	width:1200px;
+	margin:30px auto 30px;
+}
+.full-reduce a{
+	display:block;
+	width:100%;
+}
+
+
+/*新鲜水果*/
+.fresh-fruit{
+	width:1200px;
+	margin:auto;
+	border-top:1px solid #76ac25;
+	
+}
+.fresh-fruit .fruit-l{
+	width:240px;
+}
+.fresh-fruit .fruit-l .ftop{
+	height:50px;
+	background:#76ac25;
+	line-height:50px;
+	text-align:center;
+	color:#fff;
+	cursor: pointer;
+}
+.fresh-fruit .fruit-l .ftop i{
+	float:left;
+	width:15px;
+	height:16px;
+	margin:15px 8px 0 75px;
+	background:url(../img/index_icon_new.png) no-repeat -97px -295px;
+}
+
+.fresh-fruit .fruit-c{
+	width:723px;
+	padding:15px 0 0 15px;
+	overflow: hidden;
+	border-bottom:1px solid #ccc;
+}
+
+.fresh-fruit .fruit-c ul li{
+	float:left;
+	width:160px;
+	margin:0 20px 7px 0;
+}
+.fresh-fruit .fruit-c ul li a{
+	position: relative;
+	display: block;
+	width:160px;
+	height:160px;
+	overflow: hidden;
+}
+.fresh-fruit .fruit-c ul li a .cart{
+	position: absolute;
+	width:160px;
+	height:20px;
+	line-height: 20px;
+	text-align:center;
+	left:0;
+	bottom:-20;
+	color:#fff;
+	background:#76ac25;
+}
+.fresh-fruit .fruit-c ul li a .cart i{
+	margin-right:10px;
+}
+.fresh-fruit .fruit-c ul li p{
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
+.fresh-fruit .fruit-c ul li b{
+	display: block;
+	height:30px;
+	line-height:30px;
+	color:#f00;
+}
+
+.fresh-fruit .fruit-r{
+	width:220px;
+	overflow: hidden;
+}
+.fresh-fruit .fruit-r .fr-top{
+	width:100%;
+	padding:14px 2px;
+	background:#f4f4f4;
+}
+
+.fresh-fruit .fruit-r ul li{
+	float:left;
+	width:55px;
+	height:55px;
+	line-height: 55px;
+	text-align:center;
+	margin:8px;
+	border-radius:50%;
+	background:#fff;
+	
+	
+}
+.fresh-fruit .fruit-r ul li a{
+	display: block;
+	width:100%;
+	height:100%;
+	border-radius:50%;;
+	
+}
+.fresh-fruit .fruit-r ul li a:hover{
+	background:#76ac25;
+	color:#fff;
+}
+.fresh-fruit .fruit-r .frt-bottom{
+	width:100%;
+	position: relative;
+	
+}
+.fresh-fruit .fruit-r .frt-bottom a{
+	
+	width:100%;
+	
+}
+.fresh-fruit .fruit-r .frt-bottom span{
+	display: block;
+	position: absolute;
+	top:60px;
+	left:15px;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background:url(../img/index_icon_new.png) no-repeat -204px 0;
+	cursor: pointer;
+}
+.fresh-fruit .fruit-r .frt-bottom span:hover{
+	background-position:-204px -33px;
+}

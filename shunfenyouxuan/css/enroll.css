@@ -1,0 +1,251 @@
+@charset "utf-8";
+body{
+	background: rgb(245,245,245);
+}
+.header{
+	width:1200px;
+	margin:auto;
+	
+	
+}
+.header .header-content{
+	vertical-align: middle;
+	display: table-cell;
+}
+.header .header-content span{
+	font-size:30px;
+	vertical-align: middle;
+}
+.tapbox{
+	width:1200px;
+	margin:auto;
+	text-align: center;
+	height:40px;
+	overflow: hidden;
+	position:relative;
+	
+}
+.tapbox p{
+	position: absolute;
+	top:5px;
+	right:10px;
+	background:rgb(245,245,245);
+}
+.tapbox p a{
+	color:#669900;
+	font-size:12px;
+	margin-left:10px;
+}
+.tapbox li{
+	display: inline-block;
+	width:160px;
+	height:40px;
+	margin:0 5px;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+	cursor: pointer;
+	color:#333;
+	font-size:20px;
+	border:1px solid #666;
+}
+.enroll-content{
+	width:1200px;
+	margin:auto;
+	height:400px;
+	background:#fff url(../img/pic2.jpg) right 78px no-repeat;
+	
+}
+.enroll-content ul{
+	position:relative;
+	top:45px;
+	left:70px;
+}
+
+.enroll-content ul li{
+	height:38px;
+	line-height: 38px;
+	font-size:16px;
+}
+.enroll-content ul li span{
+	display: inline-block;
+	height:38px;
+	width: 298px;
+	line-height: 38px;
+	
+}
+.enroll-content ul li .error{
+	color:#f00;
+	
+}
+.enroll-content ul li .correct-bg{
+	display: inline-block;
+	width:23px;
+	height:36px;
+	background:url(../img/icon4.jpg) center no-repeat;
+	margin:0 20px 0 -40px;
+	vertical-align: middle;
+	display: none;
+}
+.enroll-content ul li>em{
+	color:#f00;
+}
+
+.enroll-content ul li span input{
+	display: inline-block;
+	padding:5px;
+	height:26px;
+	width:278px;
+	outline: none;
+}
+.enroll-content ul li span input.active{
+	border-color:#679800;
+}
+.enroll-content ul .enroll-password{
+	margin:10px 0 0 -16px;
+}
+.enroll-content ul .password-strong{
+	margin:5px 0 0px 124px;
+}
+.enroll-content ul .password-strong em{
+	display: inline-block;
+	width:40px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+	color:#fff;
+	background:#969696;
+	margin-right:5px;
+}
+.enroll-content ul .password-strong .level1{
+	background:#FB9820;
+}
+.enroll-content ul .password-strong .level2{
+	background:#669900;
+}
+.enroll-content ul .password-strong .level3{
+	background:#f00;
+}
+.enroll-content ul .check-word{
+	margin:0 0 10px -16px;
+}
+.enroll-content ul .auth{
+	margin-bottom: 10px;
+	
+}
+
+.enroll-content ul .auth .authbox{
+	display: inline-block;
+	width:60px;
+	height:36px;
+	line-height:36px;
+	text-align: center;
+	border:1px solid #ccc;
+	vertical-align: middle;
+	font-size:20px;
+}
+.enroll-content ul .auth a{
+	color:#669900;
+}
+.enroll-content ul .auth a:hover{
+	text-decoration: underline;
+}
+.enroll-content ul .deal{
+	margin:0 0 10px 60px;
+}
+.enroll-content ul .deal b{
+	color:#669900;
+}
+.enroll-content ul .register{
+	width:270px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	background:#76AC25;
+	color:#fff;
+	cursor: pointer;
+	border-radius:5px ;
+	margin-left:85px;
+	font-size:18px;
+}
+.enroll-content ul .register:hover{
+	background:#679800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	width:1200px;
+	margin:10px auto;
+	
+}
+.footer p{
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	
+}
+.footer p a{
+	padding:0 10px;
+	color:#666;
+}
+.footer p a:hover{
+	text-decoration: underline;
+}

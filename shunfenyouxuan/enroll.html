@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户系统注册</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/enroll.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-content">
+				<a href="index.html">
+					<img src="img/logo.png" />
+				</a>
+				<span>欢迎注册</span>
+			</div>
+		</div>
+		<div class="tapbox">
+			<ul class="clear">
+				<li>个人用户</li>
+				<li>企业用户</li>
+			</ul>
+			<p>已有账号，立即<a href="login.html">登录</a></p>
+		</div>
+		<div class="enroll-content">
+			<form>
+				<ul>
+					<li class="enroll-user">
+						<em>*</em >
+						账户名：
+						<span class="user-content">
+							<input type="text" name="username" class="username " placeholder="请输入您的手机号码" />
+							
+						</span>
+						<i class="correct-bg"></i>
+						<b class="error"></b>
+					</li>
+					<li class="enroll-password">
+						<em>*</em >
+						登录密码：
+						<span class="password-content">
+							<input type="password" name="password" class="password"placeholder="6-20位字符,可使用字母、数字、下滑线组合" />
+						</span>
+						<i class="correct-bg"></i>
+						<b class="error"></b>
+					</li>
+					<li class="password-strong">
+						<span>安全程度：
+							<em class="weak level">弱</em>
+							<em class="middle level">中</em>
+							<em class="strong level">强</em>
+						</span>
+					</li>
+					<li class="check-word">
+						<em>*</em >
+						确认密码：
+						<span class="password-content">
+							<input type="password" name="check-password" class="check-password" placeholder="请再次输入密码"/>
+						</span>
+						<i class="correct-bg"></i>
+						<b class="error"></b>
+					</li>
+					<li class="auth">
+						<em>*</em >
+						验证码：
+						<span class="code-content">
+							<input type="text" class="auth-word" placeholder="请输入验证码"/>
+						</span>
+						<i class="correct-bg"></i>
+						<b class="authbox">ddas</b>
+						<a href="javascript:;">换一换</a>
+						<b class="error"></b>
+					</li>
+					<li class="deal">
+						<input type="checkbox" checked="checked"/>
+						我已经阅读并同意
+						<b>《顺丰用户注册协议》</b>
+					</li>
+					<li class="register">
+						立即注册
+					</li>
+					
+					
+				</ul>
+			</form>
+			
+		</div>
+		<div class="footer">
+			<p>
+				<a href="#">关于我们</a>|
+				<a href="#">关于我们</a>|
+				<a href="#">关于我们</a>|
+				<a href="#">关于我们</a>|
+				<a href="#">关于我们</a>
+				
+			</p>
+			<p> 北京顺丰商务电子有限公司</p>
+			<p> 北京市公安局顺义分局备案11011302000890号|京ICP备12011349号企业营业执照</p>
+			<p> Copyright© 顺丰优选 sfbest.com 版权所有</p>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/enroll.js"></script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+$(function(){
+	$('.top-wrapper').load('top.html',function(){
+		$.getScript('js/header.js')
+	});
+	$('.body-wrapper').load('cart-account-body.html',function(){
+		$.getScript('js/cart-account-body.js')
+	});
+	$('.foot-wrapper').load('foot.html',function(){
+		$.getScript('js/foot.js')
+	})
+})

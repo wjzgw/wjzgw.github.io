@@ -1,0 +1,25 @@
+{
+	"10001":{
+	
+		"goods-id":10001,
+		"goods-name":"格兰菲迪12年单一麦芽威士忌",
+		"goods-price":259,
+		"stock":1000
+	},
+	"10002":{
+	
+		"goods-id":10001,
+		"goods-name":"格兰菲迪12年单一麦芽威士忌",
+		"goods-price":259,
+		"stock":1000
+	},
+	"10003":{
+	
+		"goods-id":10001,
+		"goods-name":"格兰菲迪12年单一麦芽威士忌",
+		"goods-price":259,
+		"stock":1000
+	}
+
+
+}

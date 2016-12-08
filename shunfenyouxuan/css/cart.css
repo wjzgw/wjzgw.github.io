@@ -1,0 +1,449 @@
+@charset "utf-8";
+.title{
+	width:1200px;
+	margin:auto;
+	height:30px;
+	line-height: 30px;
+	color:#969696;
+}
+.title b{
+	font-size:20px;
+	font-weight: 600;
+	color:#333;
+}
+.goods{
+	width:1200px;
+	height:440px;
+	margin:auto;
+	background:rgb(251,251,251);
+	position: relative;
+	
+}
+.goods .glass{
+	width:960px;
+	height:440px;
+	box-shadow: 0 0 3px 1px #ccc;
+	background:rgb(252,252,252);
+	position:absolute;
+}
+.goods .glass .left-side{
+	width:63px;
+	height:312px;
+	position:absolute;
+	top:40px;
+	overflow: hidden;
+	
+}
+.goods .glass .left-side .img-wrapper{
+	width:63px;
+	height:400%;
+	position:absolute;
+}
+.goods .glass .left-side .img-wrapper img{
+	width:60px;
+	height:60px;
+	border:1px solid #fff;
+}
+.goods .glass .left-side .img-wrapper img.active{
+	border-color: #669900;
+}
+.goods .glass .arrow{
+	position:absolute;
+	width:40px;
+	height:63px;
+	line-height:60px;
+	text-align: center;
+	background:#fff;
+	color:#000;
+	transform: rotate(90deg);
+	cursor:pointer;
+	font-size:25px;
+}
+.goods .glass .arrow-top{
+	top:-10px;
+	left:11px;
+}
+.goods .glass .arrow-bottom{
+	bottom:40px;
+	left:12px;
+}
+.goods .glass .small{
+	position:relative;
+	top:40px;
+	left:68px;
+	width:300px;
+	height:300px;
+}
+.goods .glass .small .small-img{
+	width:300px;
+	height:300px;
+}
+.goods .glass .small .filter{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100px;
+	height:100px;
+	background:url(../img/filter.png);
+	cursor: move;
+	display: none;
+}
+.goods .glass .large{
+	position:absolute;
+	top:40px;
+	left:372px;
+	width:300px;
+	height:300px;
+	overflow: hidden;
+	display: none;
+	z-index: 2;
+}
+.goods .glass .large .large-img{
+	top:0;
+	left:0;
+	position:absolute;
+	width:900px;
+	height:900px;
+}
+.goods .glass .buy{
+	position: relative;
+	top:-260px;
+	left:380px;
+	width:580px;
+}
+.goods .glass .buy h3{
+	margin-bottom:40px;
+}
+.goods .glass .buy h3 b{
+	padding:5px 10px;
+	color:#fff;
+	background:#669900;
+	margin-right:10px;
+	border-radius:5px;
+}
+.goods .glass .buy h3 span{
+	font-size:20px;
+	color:#000000;
+	font-weight: 900;
+}
+.goods .glass .buy .info{
+	height:40px;
+	padding:50px 0 0 20px;
+	background:rgb(250,142,25);
+	color:#fff;
+	position: relative;
+}
+.goods .glass .buy .info .best-price i{
+	font-weight: 700;
+}
+.goods .glass .buy .info .best-price span{
+	font-size:40px;
+	font-weight: 700;
+	position: relative;
+	top:5px;
+}
+.goods .glass .buy .info .best-price a{
+	position: absolute;
+	top:55px;
+	left:350px;
+	width:84px;
+	height:24px;
+	text-align: center;
+	line-height: 24px;
+	color:#f00;
+	background:rgb(255,228,0)
+}
+.goods .glass .buy .info .best-price b{
+	position: absolute;
+	left:480px;
+	top:40px;
+	width:73px;
+	height:74px;
+	background: url(../img/productinfo.png) no-repeat 0 -217px;
+}
+.goods .glass .buy .post{
+	padding:10px;
+	height:40px;
+	line-height: 40px;
+	margin-bottom:20px;
+}
+.goods .glass .buy .post .post-inner{
+	border-bottom:1px solid #ccc;
+}
+.goods .glass .buy .post .post-inner b{
+	display: inline-block;
+	width:99px;
+	height:20px;
+	line-height: 20px;
+	text-align:center;
+	padding:2px;
+	border:1px solid #ccc;
+	background:#fff;
+	position: relative;
+	cursor: pointer;
+}
+.goods .glass .buy .post .post-inner b i:after{
+	content:'';
+	display: block;
+	width:0;
+	height:0;
+	border:8px solid transparent;
+	border-top-color:#666;
+	position: absolute;
+	top:8px;
+	left:85px;
+}
+.goods .glass .buy .buy-bottom li{
+	float:left;
+	margin-right:10px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+}
+.goods .glass .buy .buy-bottom .first{
+	position: relative;
+	width:80px;
+	height:44px;
+}
+.goods .glass .buy .buy-bottom .first input{
+	width:50px;
+	height:44px;
+	text-align: center;
+	line-height: 44px;
+	border:1px solid #ccc;
+	position: absolute;
+	top:0;
+	left:0;
+	outline: none;
+}
+.goods .glass .buy .buy-bottom .first .amount-increase{
+	width:30px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #ccc;
+	text-align: center;
+	position: absolute;
+	left:50px;
+	top:0;
+	background:#fff;
+}
+.goods .glass .buy .buy-bottom .first .amount-decrease{
+	width:30px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #ccc;
+	text-align: center;
+	position: absolute;
+	left:50px;
+	top:22px;
+	background:#fff;
+}
+.goods .glass .buy .buy-bottom .addCart{
+	width:160px;
+	height:46px;
+	line-height:46px;
+	border-radius:2px;
+	text-align: center;
+	background:#669900;
+	color:#fff;
+	font-family: "微软雅黑";
+	font-size:16px;
+	cursor: pointer;
+}
+.goods .glass .buy .buy-bottom .addCart:hover{
+	background:#76AC25;
+}
+.goods .glass .buy .buy-bottom .buyNow{
+	width:140px;
+	height:46px;
+	text-align: center;
+	line-height: 46px;
+	color:#fff;
+	background:#FA6400;
+	font-family: "微软雅黑";
+	font-size:16px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius:3px;
+}
+.goods .glass .buy .buy-bottom .buyNow:hover{
+	background:#FA9600;
+}
+.goods .glass .buy .buy-bottom .last{
+	width:120px;
+	height:46px;
+	padding:0 10px;
+	text-align: center;
+	line-height: 46px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+    background: #fbfbfb url(../img/phone.jpg) 10px center no-repeat;
+}
+.goods .glass .buy .buy-bottom .last:hover{
+	border-color: #669900;
+}
+.goods .glass .buy .buy-bottom .last b{
+	float:right;
+	height:23px;
+	line-height: 23px;
+}
+.goods .glass .buy .buy-bottom .last i{
+	float:right;
+	height:23px;
+	line-height: 23px;
+	color:#FA6400;
+}
+
+.goods .right-side{
+	position:relative;
+	width:220px;
+	top:0;
+	left:970px;
+	background:#fff;
+}
+.goods .right-side ul{
+	border-bottom:1px dotted #ccc;
+}
+.goods .right-side ul li{
+	float:left;
+	padding:5px 10px;
+	border-right:1px dotted #ccc;
+}
+.goods .right-side ul .last{
+	border: none;
+}
+.goods .right-side .information p{
+	padding-left:10px;
+	height:24px;
+	line-height: 24px;
+}
+.goods .right-side .pay{
+	margin:10px;
+	height:30px;
+	line-height: 30px;
+	border-radius:15px;
+	border:1px solid #ccc;
+	cursor: pointer;
+	color:#669900;
+}
+.goods .right-side .pay .clip{
+	width:60px;
+	text-align: center;
+	line-height: 30px;
+	height:30px;
+	background:rgb(238,64,64);
+	color:#fff;
+	border-radius:15px;
+	margin-right:10px;
+	font-style: italic;
+	font-family: "微软雅黑";
+}
+.goods .right-side .return-sales{
+	margin:0 10px 10px 10px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius:15px;
+	border:1px solid #ccc;
+	cursor: pointer;
+	color:#969696;
+}
+.goods .right-side .good-pinjia{
+	padding:10px;
+	display: table-cell;
+	vertical-align: middle;
+	border-top:1px solid #ccc;
+}
+.goods .right-side .good-pinjia i{
+	font-weight: 800;
+	font-family: "微软雅黑";
+	color:#000000;
+	vertical-align: middle;
+}
+.goods .right-side .good-pinjia b{
+	width:80px;
+	height:10px;
+	background:#FA6400;
+	vertical-align: middle;
+	margin: 8px 10px;
+}
+.goods .right-side .good-pinjia span{
+	font-weight: 900;
+	font-family: "微软雅黑";
+	color:#FA6400;
+	font-size:18px;
+	vertical-align: middle;
+}
+.goods .right-side .discuss{
+	padding:10px;
+}
+.goods .right-side .discuss p{
+	height:20px;
+	line-height: 20px;
+	color:#679800;
+}
+.goods .right-side .discuss .discuss-content{
+	height:40px;
+	margin-top:10px;
+	border:1px solid #FA9600;
+	padding:10px;
+	position: relative;
+}
+.goods .right-side .discuss .discuss-content:after{
+	content: '';
+	display: block;
+	width:0;
+	height:0;
+	border:6px solid transparent;
+	border-bottom-color: #FA9600;
+	top:-12px;
+	left:25px;
+	position:absolute;
+}
+
+.error-warning{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background:#ccc;
+	opacity:0.5;
+	z-index: 3;
+	display: none;
+	
+}
+.error-content{
+	position:fixed;
+	width:360px;
+	height:120px;
+	top:50%;
+	left:50%;
+	margin-top:-60px;
+	margin-left:-180px;
+	background:#fff;
+	opacity: 1;
+	color:#333;
+	z-index: 4;
+	display: none;
+}
+
+.error-content h3{
+	height:20px;
+	line-height:20px;
+	padding:10px 20px;
+	background:#EEEEEE;
+}
+.error-content .error-item{
+	text-align: center;
+	padding-top:20px;
+}
+.error-content .error-item .ensure{
+	display: inline-block;
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	color:#fff;
+	background:#679800;
+	font-family: "微软雅黑";
+}

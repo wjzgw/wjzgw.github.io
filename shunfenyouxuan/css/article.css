@@ -1,0 +1,315 @@
+@charset "utf-8";
+.text-list{
+	width:1200px;
+	margin:20px auto 20px;
+}
+
+.text-list .taste{
+	width:400px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+.text-list  h3{
+	
+	padding-left:15px;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ccc;
+	background:url(../img/zhiwei_bg.jpg) no-repeat left center;
+}
+.text-list .taste .slide{
+	width:170px;
+	height:100px;
+	overflow: hidden;
+	position:relative;
+	margin:20px 10px 0 0;
+}
+.text-list .taste .slide .img-wrapper{
+	width:300%;
+	height:100%;
+	
+}
+.text-list .taste .slide .img-wrapper img{
+	float:left;
+	width:170px;
+	height:100px;
+}
+.text-list .taste .slide .arrow{
+	position:absolute;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background:#ccc;
+	color:#fff;
+	top:50%;
+	margin-top:-20px;
+	cursor: pointer;
+	display:none;
+}
+.text-list .taste .slide .arrow:hover{
+	background:#c33;
+}
+.text-list .taste .slide .arrow-left{
+	left:0;
+}
+.text-list .taste .slide .arrow-right{
+	right:0;
+}
+.text-list .taste .slide .circle{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	text-align: right;
+}
+.text-list .taste .slide .circle .circle-wrapper{
+	display: inline-block;
+}
+.text-list .taste .slide .circle .circle-wrapper span{
+	float:left;
+	width:15px;
+	height:4px;
+	background:#ccc;
+	margin-right:2px;
+}
+.text-list .taste .slide .circle .circle-wrapper span.active{
+	background:#679800;
+}
+
+
+.text-list .taste .info{
+	width:220px;
+	margin-top:20px;
+}
+.text-list .taste .info p{
+	
+	height:20px;
+	line-height:20px;
+	padding-left:10px;
+	background:url(../img/dian.jpg) no-repeat left center;
+	cursor: pointer;
+}
+.text-list .taste .info p:hover{
+	color:#7abd54;
+}
+
+.text-list .shaidan{
+	width:420px;
+	padding-bottom:10px;
+	margin:0 18px;
+	font:12px/28px "";
+	border-bottom:1px solid #ccc;
+}
+.text-list .shaidan .shaidan-item{
+	width:100%;
+	height:122px;
+	padding:12px 0 6px 0;
+	overflow: hidden;
+}
+.text-list .shaidan ul{
+	width:100%;
+	
+	
+	
+}
+.text-list .shaidan ul li{
+	width:100%;
+	height:55px;
+	padding:5px 0;
+	border-bottom:1px dotted #ccc;
+}
+.text-list .shaidan>ul>li>a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.text-list .shaidan .shaidan-item>ul>li>a img{
+	float:left;
+	width:50px;
+	height:50px;
+	margin-right:20px;
+}
+.text-list .shaidan .shaidan-item>ul>li>a b{
+	overflow: hidden;
+	color:#fa9600;
+	height:28px;
+}
+.text-list .shaidan .shaidan-item>ul>li>a p{
+	height:28px;
+	color:#666;
+}
+.text-list .shaidan .shaidan-item>ul>li>a b:hover,
+.text-list .shaidan .shaidan-item>ul>li>a p:hover
+{
+	text-decoration: underline;
+}
+.text-list .find-best{
+	width:310px;
+	height:202px;
+	padding:0 15px;
+	border:1px solid #ccc;
+}
+.text-list .find-best .best-t{
+	width:100%;
+	border-bottom:1px solid #ccc;
+}
+.text-list .find-best .best-t .best{
+	padding-left:20px;
+	background:url(../img/youpin.jpg) no-repeat left center;
+	border:none;
+} 
+
+.text-list .find-best .best-t b{
+	width:60px;
+	height:15px;
+	background:url(../img/foot_bottom.png)no-repeat -3px -104px;
+	margin-top:17px;
+	cursor: pointer;
+}
+.text-list .find-best .best-t b:hover{
+	
+	background-position:-3px -130px;
+}
+.text-list .find-best .best-c{
+	
+	padding: 10px 5px;
+}
+.text-list .find-best .best-c .display{
+	float:left;
+	width:70px;
+	height:70px;
+	position:relative;
+	margin-right:5px;
+}
+.text-list .find-best .best-c .display .message{
+	position:absolute;
+	top:0;
+	left:0;
+	width:60px;
+	height:60px;
+	padding:5px;
+	background:rgb(240,147,5);
+	color:#fff;
+	opacity:0.9;
+	display: none;
+	cursor: pointer;
+}
+
+.text-list .find-best .best-c .display .message .title{
+	overflow: hidden;
+	text-align: center;
+	height:43px;
+	
+}
+.text-list .find-best .best-c .display .message .message-foot{
+	padding-left:20px;
+	background: url(../img/zan.png) no-repeat left center;
+	
+}
+
+.text-list .find-best .best-b{
+	height:40px;
+	margin-top:10px;
+	line-height:40px;
+}
+.text-list .find-best .best-b span{
+	margin-right:5px;
+}
+.text-list .find-best .best-b input{
+	width:125px;
+	height:14px;
+	outline: none;
+	
+	padding:5px;
+	
+}
+.text-list .find-best .best-b .select{
+	position:relative;
+	width:45px;
+	height:24px;
+	line-height:24px;
+	text-align: center;
+	border:1px solid #ccc;
+	background:#fff;
+	margin-top:8px;
+	cursor: pointer;
+}
+.text-list .find-best .best-b .select .select-content{
+	width:310px;
+	padding:10px;
+	border:1px solid #ccc;
+	background:#fff;
+	position:absolute;
+	margin-left:-206px;
+	margin-top:1px;
+	display: none;
+}
+.text-list .find-best .best-b .select .select-content ul{
+	border-bottom:1px solid #ccc;
+}
+.text-list .find-best .best-b .select .select-content ul li{
+	float:left;
+	width:60px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-right:5px;
+	border:1px solid #ccc;
+	cursor:pointer;
+	
+}
+.text-list .find-best .best-b .select .select-content ul li:hover{
+	color:#679800;
+}
+.text-list .find-best .best-b .select .select-content .select-item{
+	
+	text-align: left;
+	height:130px;
+	background:#fff;
+	
+}
+.text-list .find-best .best-b .select .select-content .select-item a{
+	display: inline-block;
+	width:40px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin:0 5px;
+}
+.text-list .find-best .best-b .select .select-content .select-item a:hover{
+	background:#679800;
+	color:#fff;
+}
+.text-list .find-best .best-b .select .select-content .ensure{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	background:#fff;
+	background:#fff;
+	
+	
+}
+.text-list .find-best .best-b .select .select-content .ensure b{
+	float:left;
+	margin-left:11px;
+}
+.text-list .find-best .best-b span .subscibe{
+	display:inline-block;
+	height:24px;
+	line-height: 24px;
+	padding:0 5px;
+	background:#669900;
+	color:#fff;
+	font-weight: 700;
+	
+}
+.post{
+	background:#f5f5f5;
+}
+.post .post-wrapper{
+	width:1200px;
+	margin:auto;
+}
